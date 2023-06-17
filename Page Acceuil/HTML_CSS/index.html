@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resumé HTML & CSS</title>
+        <!------------------------- Favicon----------------------------------------------------------------------------------------------->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!------------------------- Bootstrap icons--------------------------------------------------------------------------------------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!------------------------- Core theme CSS (includes Bootstrap)------------------------------------------------------------------->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!------------------------- Responsive navbar ------------------------------------------------------------------------------------>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="#!">HTML & CSS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#role">Role du HTML& CSS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#QR">Questions/Réponses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#B">Quelques balises utilisé en HTML & CSS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!------------------------- Responsive navbar exit-------------------------------------------------------------------------------->
+
+        <!------------------------- Header ----------------------------------------------------------------------------------------------->
+        <header class="py-5">
+        <section id="home" >
+            <div class="container px-lg-2 pb-5 mt-2">
+                <div class="p-4 p-lg-5 bg-light rounded-5 text-center">
+                    <div class="m-5 m-lg-1">
+                        <h1 class="display-4 fw-bold">Un resumé sur le HTMLL & le CSS!</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="role">
+             <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                    <div class="m-4 m-lg-5">
+                        <h2 class="display-7 fw-bold">Rôle du HTML & du CSS</h2>
+                        <p class="fs-4">Le HTML gère et organise le contenu de la page.</p>
+                        <p class="fs-4">Le HTML va donc créer la structure des pages tandis que le CSS va nous permettre de modifier l'apparence des contenus de la page. On va ainsi par exemple pouvoir définir la taille, la couleur ou l'alignement de certains contenus HTML et notamment en l'occurrence de certains textes dans notre page.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </header>
+        <!------------------------- Header exit ------------------------------------------------------------------------------------------>
+
+        <!------------------------- Questions/Réponses ----------------------------------------------------------------------------------->
+        <section id="QR" class="pt-4">
+            <div class="container px-lg-5">
+                <div class="m-5 m-lg-1 pb-5">
+                <h1 class="display-5 fw-bold text-center">Questions/Réponses</h1>
+                </div>
+                <!-- Page Features-->
+                <div class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
+                                <h2 class="fs-4 fw-bold">C'est quoi le HTML et CSS ?</h2>
+                                <p class="mb-0">Le HTML est la structure technique de toute page de site web. Le CSS correspond au style, ce qui vous permet de montrer à l'utilisateur final le branding, les couleurs et les polices qui rendent votre identité de marque unique. Une page HTML, sans CSS, est fonctionnelle mais ne présente pas un contenu esthétique.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
+                                <h2 class="fs-4 fw-bold">Quelle différence entre HTML et CSS ?</h2>
+                                <p class="mb-0">HTML, CSS et JavaScript sont les noms de différents types de code fréquemment utilisés dans le développement web. L'HTML permet l'affichage des informations de la page sur le navigateur, le CSS met en page son contenu et le JavaScript intègre les animations et spécifie les interactions entre les éléments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
+                                <h2 class="fs-4 fw-bold">Comment utiliser HTML et CSS ?</h2>
+                                <p class="mb-0">Pour placer du code CSS dans une feuille HTML, il existe trois façons de procéder :
+                                    <ol>
+                                        <li>Intégrer le code directement dans la balise HTML avec l'attribut style.</li>
+                                        <li>Intégrer le code directement dans le fichier HTML avec l'attribut style.</li>
+                                        <li>Créer un fichier CSS externe et relié à la feuille HTML via la balise link.</li>
+                                    </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
+                                <h2 class="fs-4 fw-bold">Quelle est l'utilité du langage CSS dans un ensemble HTML & CSS ?</h2>
+                                <p class="mb-0">Le CSS correspond à un langage informatique permettant de mettre en forme des pages web (HTML ou XML). Ce langage est donc composé des fameuses « feuilles de style en cascade » également appelées fichiers CSS (. css) et contient des éléments de codage.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
+                                <h2 class="fs-4 fw-bold">Comment appeler un fichier CSS dans une page HTML ?</h2>
+                                <p class="mb-0">Il est possible d'écrire du code CSS dans l'entete d'un document HTML, dans la balise >head>. Il suffit pour cela de l'encadrer par une balise >style> ayant pour attribut type="text/css".</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------- Questions/Réponses exit ------------------------------------------------------------------------------>
+
+        <!------------------------- Quelques balises ------------------------------------------------------------------------------------->
+        <section id="B">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bolder">Quelques balises</h2>
+                    <p class="lead mb-0">Qui peuvent aider en HTML & CSS</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6 col-xl-9 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">Rôle des balises suivantes </div>
+                                <div class="mb-3">
+                                    <img src="images/1.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">lien vers une autre page de son site:</div>
+                                <div class="mb-3">
+                                    <img src="images/2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">lien vers un autre site :</div>
+                                <div class="mb-3">
+                                    <img src="images/3.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-8 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">lien vers une autre partie de sa page html.</div>
+                                <div class="mb-3">
+                                    <img src="images/4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">lien vers une autre partie d’une autre page html.</div>
+                                <div class="mb-3">
+                                    <img src="images/5.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-8 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold"> lien pour envoyer un email.</div>
+                                <div class="mb-3">
+                                    <img src="images/6.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-8 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">différence entre les formats d’images jpeg, png, gif</div>
+                                <div class="mb-3 mt-2">
+                                    <img src="images/7.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-9 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">insérer une image.<br> A quoi sert le mot alt</div>
+                                <div class="mb-3">
+                                    <img src="images/8.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-8 mb-3">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">A quoi servent les balises >figure> et >figcaption></div>
+                                <div class="mb-3">
+                                   <img src="images/9.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="text-uppercase fw-bold">indiquer l’utilisation d’une feuille de style css</div>
+                                <div class="mb-3">
+                                   <img src="images/10.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------- Quelques balises exit -------------------------------------------------------------------------------->
+
+        <!------------------------- Footer ----------------------------------------------------------------------------------------------->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Roll Haurly 2023</p></div>
+        </footer>
+        <!------------------------- Footer exit ------------------------------------------------------------------------------------------>
+
+        <!------------------------- Bootstrap core JS ------------------------------------------------------------------------------------>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!------------------------- Bootstrap core JS exit ------------------------------------------------------------------------------->
+
+        <!------------------------- Core theme JS ---------------------------------------------------------------------------------------->
+        <script src="js/scripts.js"></script>
+        <!------------------------- Core theme JS exit ----------------------------------------------------------------------------------->
+
+    </body>
+</html>
