@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,6 +12,23 @@
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
 }
-.card:hover .p-hover{
+.photo:hover .p-hover{
+  display: flex;
+}
+.p-hovera {
+  position: absolute;
+  top: 170px;
+  left: 460px;
+  right: 460px;
+  bottom: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+.phot:hover .p-hovera{
   display: flex;
 }
