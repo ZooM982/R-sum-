@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 	<title>Résumé sur GITLAB</title>
 </head>
 <body>
@@ -28,7 +30,7 @@
           				<a class="nav-link" href="#connexion">Connexion sur GITLAB</a>
         			</li>
         			<li class="nav-item">
-          				<a class="nav-link" href="QR">Questions/Réponses</a>
+          				<a class="nav-link" href="#QR">Questions/Réponses</a>
         			</li>
       			</ul>
     		</div>
@@ -94,24 +96,25 @@
 <!-- conexion section exit-->
 <!-- Q/R section-->
 <section id="QR">
-	<div class="m-5 m-lg-1 pb-5">
-                <h1 class="display-5 fw-bold text-center">Questions/Réponses</h1>
+	<div class="container px-lg-2">
+				<div class="m-5 m-lg-1 pb-5">
+                	<h1 class="display-5 fw-bold text-center">Questions/Réponses</h1>
                 </div>
                 <div class="row gx-lg-5">
                     <div class="col-lg-12 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
-                                <h2 class="fs-4 fw-bold">Comment installer et utiliser Bootstrap ?</h2>
-                                <p class="mb-0">
-                                    <ol>
-                                        <li>
-                                            Télécharger le Framework. Télécharger sur Github. ou télécharger sur Bootstrap Twitter.Dézipper l'archive et extraire les fichiers dans votre projet. ...
-                                        </li>
-                                        <li>
-                                            Installation avec Bower. Qu'est ce que Bower ? Bower est un outil Open Source de gestion de paquets s'éxécutant côté client.
-                                        </li>
-                                    </ol></p>
+                                <h2 class="fs-4 fw-bold">Comment importer un projet dans GitLab ?</h2>
+                                	<p>Synchroniser un dépôt git local sur Gitlab</p>
+                                	<ol >
+                                		<li>Ouvrez votre compte Gitlab. Sur gitlab.com ou sur votre propre serveur Gitlab.</li>
+                                		<li>Cliquez sur “Nouveau projet”.</li>
+                                		<li>Choisissez l'onglet “Importer un projet”. ...</li>
+                                		<li>Vous devrez peut-être vous connecter à votre compte Github.</li>
+                                		<li>Choisissez le dépôt que vous souhaitez importer.</li>
+                                		<li>Importez.</li>
+                                	</ol>
                             </div>
                         </div>
                     </div>
@@ -121,8 +124,8 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
-                                <h2 class="fs-4 fw-bold">C'est quoi Bootstrap en informatique ?</h2>
-                                <p class="mb-0">Bootstrap est une collection d'outils utiles à la création du design de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option.</p>
+                                <h2 class="fs-4 fw-bold">Quelles sont les fonctionnalités de GitLab ?</h2>
+                                <p class="mb-0">Elle permet de créer, tester et déployer des logiciels de manière collaborative. L'application tout-en-un propose d'accéder à l'ensemble des étapes du cycle de vie DevOps : chaque équipe peut planifier des projets et gérer le code source, l'approche CI/CD ainsi que la sécurité.</p>
                             </div>
                         </div>
                     </div>
@@ -132,8 +135,10 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
-                                <h2 class="fs-4 fw-bold">Quels sont les avantages de Bootstrap ?</h2>
-                                <p class="mb-0">Bootstrap est un framework CSS permettant de faciliter l'écriture de la mise en forme CSS d'un site web. Avec Bootstrap, vous gagnerez du temps et n'aurez plus besoin de vous prendre la tête sur un décalage de quelques pixels sur votre page web. Tout le CSS a déjà été pensé pour vous.</p>
+                                <h2 class="fs-4 fw-bold">Comment créer une branche GitLab ?</h2>
+                                <p class="mb-0">Pour créer une branche, utilisez la commande git branch suivie du nom de la branche. Après avoir créé la branche, utilisez à nouveau git branch pour visualiser les branches disponibles. Notez que la création d'une branche par ce moyen ne fait pas automatiquement basculer vers la nouvelle branche.</p>
+                                <br>
+                                <a href="images/branch.png"><img src="images/branch.png" width="150" height="150"> <div class="p-hover">Voir l'image</div></a>
                             </div>
                         </div>
                     </div>
@@ -143,14 +148,15 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-question"></i></div>
-                                <h2 class="fs-4 fw-bold">Comment comprendre Bootstrap ?</h2>
-                                <p class="mb-0">Bootstrap est un framework HTML/CSS qui permet de créer facilement et rapidement des sites et applications web responsives. Il a été conçu pour aider les développeurs dans leurs travaux quotidiens sur les langages que sont le HTML et le CSS. Il fonctionne notamment sur un système de grille.</p>
+                                <h2 class="fs-4 fw-bold">Comment utiliser GitLab ?</h2>
+                                <p class="mb-0">GitLab fonctionne dans les grandes lignes de la façon suivante : pour commencer, tous les participants à un projet téléchargent sur leur ordinateur une copie du référentiel central. Par la suite, les modifications apportées au code sont toujours d'abord effectuées au moyen de ce qu'on appelle des commits.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+    </div>
 </section>
+<!-- Q/R section exit-->
 <!-- footer section-->
 <footer class="py-5 bg-dark">
         <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Roll Haurly 2023</p></div>
