@@ -128,102 +128,126 @@
                     <p class="lead mb-0">Qui peuvent aider en HTML & CSS</p>
                 </div>
                 <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold">Rôle des balises suivantes </div>
                                 <div class="mb-3">
-                                    <img src="images/1.png" width="350">
+                                    <ul>
+                                        <li>&lthead&gt &lt/head&gtDélimite l’en-tête de la page.</li>
+                                        <li>&lttitle&gt &lt/title&gtDéfinit le texte à afficher sur l’onglet de la page.</li>
+                                        <li>&ltbody&gt &lt/body&gtDélimite le corps de la page.</li>
+                                        <li>&ltimage &lt/&gtÇa n’existe pas (je connais &ltimg /&gtpour mettre des images).</li>
+                                        <li>&ltmeta charset="utf-8" &lt/&gtDétermine l’encodage (comment les caractères spéciaux vont s’afficher) en utf-8.</li>
+                                        <li>&ltp&gt &lt/p&gtTexte normal.</li>
+                                        <li>&ltbr &lt/&gtRetour à la ligne.</li>
+                                        <li>&lth1&gt &lt/h1&gtTitre de niveau 1 (titre).</li>
+                                        <li>&lth2&gt &lt/h2&gtTitre de niveau 2 (sous-titre).</li>
+                                        <li>&lth3&gt &lt/h3&gtTitre de niveau 3 (sous-sous-titre).</li>
+                                        <li>&ltem&gt &lt/em&gtMise en valeur normale.</li>
+                                        <li>&ltmark&gt &lt/mark&gtMise en valeur visuelle.</li>
+                                        <li>&ltstrong&gtMise en valeur forte.</li>
+                                        <li>&ltul&gt &lt/ul&gtDélimite une liste à puces non numéroté.</li>
+                                        <li>&ltli&gt &lt/li&gtLigne d’une liste à puces.</li>
+                                        <li>&ltol&gt &lt/ol&gtDélimite une liste à puce numéroté.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold">lien vers une autre page de son site:</div>
                                 <div class="mb-3">
-                                    <img src="images/2.png" width="350">
+                                    <p>&lta href="(nom du fichier)"&gtAller à cette page&lt/a&gt</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold">lien vers un autre site :</div>
                                 <div class="mb-3">
-                                    <img src="images/3.png" width="350">
+                                    <p>&lta href="(url du site)"&gtAller au site&lt/a&gt</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold">lien vers une autre partie de sa page html.</div>
                                 <div class="mb-3">
-                                    <img src="images/4.png" width="350">
+                                    <p>Dans une balise qui ouvre, on ajoute id="(nom)". Ensuite, dans pour faire un lien, on met :
+                                    &lta href="#(nom)"&gt, et on atterrit à l’endroit de la page avec le id="(nom)".</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold">lien vers une autre partie d’une autre page html.</div>
                                 <div class="mb-3">
-                                    <img src="images/5.png" width="350">
+                                    <p>&lta href="(nom de l’autre page)#(nom de la balise)"&gt</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold"> lien pour envoyer un email.</div>
                                 <div class="mb-3">
-                                    <img src="images/6.png" width="350">
+                                    <p>La balise qui ouvre le formulaire &ltform&gt doit avoir les attributs method="post" et
+                                    action="(adresse mail)".</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold">différence entre les formats d’images jpeg, png, gif</div>
                                 <div class="mb-3 mt-2">
-                                    <img src="images/7.png" width="350">
+                                    <p>Le jpeg est beaucoup utilisé car le fichier n’est pas lourd (par rapport à d’autres formats, mais
+                                    l’inconvénient c’est que ça détériore la qualité de l’image.
+                                    Le png propose des images de très bonne qualité, et peut être rendu transparent.
+                                    Le gif est limité à 256 couleurs, mais peut être animé.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold">insérer une image.<br> A quoi sert le mot alt</div>
                                 <div class="mb-3">
-                                    <img src="images/8.png" width="350">
+                                    <p>On insert une image avec la balise &ltimg /&gt, avec l’attribut src pour le nom de fichier de l’image. Le mot alt
+                                    sert à afficher un texte quand l’image n’est pas trouvé.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 mb-3">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
-                                <div class="text-uppercase fw-bold">A quoi servent les balises >figure> et >figcaption></div>
+                                <div class="text-uppercase fw-bold">A quoi servent les balises &ltfigure&gt et &ltfigcaption&gt</div>
                                 <div class="mb-3">
-                                   <img src="images/9.png" width="350">
+                                   <p>&ltfigure&gt et &ltfigcaption&gt permettent de lier une image, définit par &ltfigure&gt, et la légende par
+                                    &ltfigcaption&gt.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5">
+                    <div class="col-lg-4 col-xl-5 mb-3">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-2">
                                 <div class="text-uppercase fw-bold">indiquer l’utilisation d’une feuille de style css</div>
                                 <div class="mb-3">
-                                   <img src="images/10.png" width="350">
+                                   <p>&ltlink rel="stylesheet" href="(nom du css)" /&gt</p>
                                 </div>
                             </div>
                         </div>
